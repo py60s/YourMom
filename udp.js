@@ -1,10 +1,10 @@
 const dgram = require('dgram');
 
 // Parametrat e konfigurimit
-const host = '158.69.251.105'; // IP e serverit tuaj
-const port = 80; // Porti në të cilin dëshironi të dërgoni kërkesat
-const message = Buffer.from('Hello, server!'); // Mesazhi që dërgohet në server
-const numPackets = 1000000; // Numri total i paketave për të dërguar
+const host = 'ip addres'; // IP addres
+const port = 8080; // Port
+const message = Buffer.from('Hello, server!'); // Message
+const numPackets = 1000000; // nambers of pakets for sent 
 const concurrency = 100; // Numri i dërguesve të paketave në të njëjtën kohë
 const interval = 10; // Intervali në ms mes dërgesave
 
